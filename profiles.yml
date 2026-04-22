@@ -1,0 +1,13 @@
+oms_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: NCRUBIO-ZM03534  # e.g. xy12345.us-east-1
+      user: kirankumarkolla
+      password: <your_password>
+      role: accountadmin
+      database: SLEEKMART_OMS
+      warehouse: COMPUTE_WH
+      schema: L1_LANDING
+      threads: 4
