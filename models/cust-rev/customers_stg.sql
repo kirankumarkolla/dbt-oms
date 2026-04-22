@@ -12,4 +12,3 @@ SELECT
     CONCAT(FirstName, ' ', LastName) AS CustomerName
 FROM
     {{ source('landing', 'customers') }}
-    

@@ -5,7 +5,7 @@ oms_profile:
       type: snowflake
       account: NCRUBIO-ZM03534  # e.g. xy12345.us-east-1
       user: kirankumarkolla
-      password: <your_password>
+      password: 
       role: accountadmin
       database: SLEEKMART_OMS
       warehouse: COMPUTE_WH

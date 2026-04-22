@@ -1,6 +1,6 @@
 sources:
   - name: landing
-    database: SALESMART_OMS
+    database: SLEEKMART_OMS
     schema: L1_LANDING
 
     tables:
